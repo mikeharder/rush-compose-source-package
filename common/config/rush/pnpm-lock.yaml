@@ -1,0 +1,31 @@
+dependencies:
+  '@rush-temp/core': 'file:projects/core.tgz'
+  '@rush-temp/packdep': 'file:projects/packdep.tgz'
+  '@rush-temp/sourcedep': 'file:projects/sourcedep.tgz'
+lockfileVersion: 5.1
+packages:
+  'file:projects/core.tgz':
+    dev: false
+    name: '@rush-temp/core'
+    resolution:
+      integrity: sha512-dCFoHEMATsIK2xFlcphdH8beP3yHlFkyZ2ax6mvUlQ64cMj/0HBHGG2+0l8RUSCcEWGsepKKaA/gHwMev2Ex8w==
+      tarball: 'file:projects/core.tgz'
+    version: 0.0.0
+  'file:projects/packdep.tgz':
+    dev: false
+    name: '@rush-temp/packdep'
+    resolution:
+      integrity: sha512-HXuRz7DNXSXPaP7sZVN2ccE2+mwogYxTWpghiELgYiOP/hvlHku3r54F6PkH7pO9/6OKCQ1gNZWAYuU/NI1L7A==
+      tarball: 'file:projects/packdep.tgz'
+    version: 0.0.0
+  'file:projects/sourcedep.tgz':
+    dev: false
+    name: '@rush-temp/sourcedep'
+    resolution:
+      integrity: sha512-BFiFx42N30561fDXi8NPCZdtlLcg4hK7ypzbWPyV/BLMrMDZCq3R3848Ma5VVDScUmdaPbBIWiqQLNHZQuW+cQ==
+      tarball: 'file:projects/sourcedep.tgz'
+    version: 0.0.0
+specifiers:
+  '@rush-temp/core': 'file:./projects/core.tgz'
+  '@rush-temp/packdep': 'file:./projects/packdep.tgz'
+  '@rush-temp/sourcedep': 'file:./projects/sourcedep.tgz'
