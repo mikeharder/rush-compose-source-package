@@ -1,3 +1,5 @@
-export const packdep_version = '1.0.0-preview.1';
+const core = require('core');
 
-console.log('packdep: ' + packdep_version);
+exports.packdep_version = '1.0.0-preview.1';
+
+console.log('packdep: ' + exports.packdep_version);
